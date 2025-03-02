@@ -1,0 +1,5 @@
+{
+  "name": "Cheeseburger",
+  "price": 5.99,
+  "extras": ["No pickles", "Extra cheese"]
+}
