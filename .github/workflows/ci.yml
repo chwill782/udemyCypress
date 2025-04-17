@@ -1,12 +1,9 @@
 name: Cypress Test Suite
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-
-  schedule:
-    - cron: '0 9 * * 1-5' # Runs every weekday at 9am
 
 jobs:
   test:
